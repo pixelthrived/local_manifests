@@ -6,9 +6,9 @@
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.1" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" 		revision="halcyon-15" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" 		revision="halcyon-15" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" 		revision="halcyon-15" />
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" />
 
     <!-- Vendor trees -->
