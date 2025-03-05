@@ -9,11 +9,11 @@
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
     <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" />
     <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" 	revision="lineage-22.1" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" 	revision="flare-15" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
-    <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
+    <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" 	revision="flare-15" />
 
     <!-- Kernel source -->
     <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived" 		revision="v"/>
