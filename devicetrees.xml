@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remote sources -->
-    <remote name="pixelthrived"		fetch="https://github.com/pixelthrived"		revision="lineage-22.2" />
+    <remote name="pixelthrived"		fetch="https://github.com/pixelthrived"		revision="voltage-15" />
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
 
     <!-- Device trees -->
     <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" />
     <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" />
 
     <!-- Vendor trees -->
@@ -19,5 +17,5 @@
     <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived" 		revision="v"/>
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" />
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" 	revision="lineage-22.2" />
 </manifest>
