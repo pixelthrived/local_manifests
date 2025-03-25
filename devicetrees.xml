@@ -17,5 +17,5 @@
     <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived" 		revision="v"/>
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived" />
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived"         revision="lineage-22.2" />
 </manifest>
