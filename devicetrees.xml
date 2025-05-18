@@ -3,12 +3,13 @@
     <!-- Remote sources -->
     <remote name="muppets"		fetch="https://github.com/TheMuppets"		revision="lineage-22.2" />
     <remote name="los"                  fetch="https://github.com/LineageOS"              revision="lineage-22.2" />
+    <remote name="pixelthrived"		fetch="https://github.com/pixelthrived"		revision="tpp-2.2" />
 
     <!-- Device trees -->
-    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="los" />
-    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="los" />
-    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="los" />
-    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="los" />
+    <project name="android_device_motorola_devon"	path="device/motorola/devon"	remote="pixelthrived" />
+    <project name="android_device_motorola_hawao"       path="device/motorola/hawao"    remote="pixelthrived" />
+    <project name="android_device_motorola_rhode" 	path="device/motorola/rhode"	remote="pixelthrived" />
+    <project name="android_device_motorola_sm6225-common"	path="device/motorola/sm6225-common"	remote="pixelthrived" />
 
     <!-- Vendor trees -->
     <project name="proprietary_vendor_motorola_devon"	path="vendor/motorola/devon"	remote="muppets" />
@@ -17,8 +18,8 @@
     <project name="proprietary_vendor_motorola_sm6225-common"	path="vendor/motorola/sm6225-common"	remote="muppets" />
     
     <!-- Kernel source -->
-    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="los" 		revision="lineage-22.2" />
+    <project name="android_kernel_motorola_sm6225"	path="kernel/motorola/sm6225"	remote="pixelthrived" 		revision="v" />
 
     <!-- Hardware dependency -->
-    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="los" />
+    <project name="android_hardware_motorola"	path="hardware/motorola"	remote="pixelthrived"	revision="lineage-22.2" />
 </manifest>
